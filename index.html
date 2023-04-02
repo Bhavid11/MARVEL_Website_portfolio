@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+</head>
+<body>
+<!-- header section starts -->
+
+<header>
+
+    <div class="user">
+    <img src="images/img6.jpeg" alt="">
+    <h3 class="name">Bhavid A</h3>
+    <p class="post">Student</p>
+    </div>
+    
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#interests"><i class="fa-brands fa-readme"></i> Interests</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-globe"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<!-- header section endss -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+    <h3>HEY GUYS</h3>
+    <h1>I'M <span>BHAVID</span></h1>
+    <p>Thanks for stumbling upon this not so significant place accross the web. I am currently a Student
+        pursuing Engineering in Electronics and Communication in UVCE.
+    </p>
+  
+</section>
+<!-- home section ends -->
+
+<!-- Education section starts -->
+
+<section class="education" id="education">
+    <h1 class="heading"> <span>Education</span> </h1>
+    
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-book"></i>
+            <span>DEC 2004-MAR 2020</span>
+            <h3>Kensri School, Bengaluru, Karnataka, India-High School</h3>
+            <h3>Class10, Percentage-95.8%</h3>
+            <h4>MARCH 2018</h4>
+            <h3>Class10, Percentage-95.6%</h3>
+            <h4> MARCH 2020</h4>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-book"></i>
+            <span>DEC 2020-PRESENT</span>
+            <h3>University Visvesvaraya College of Engineering, 
+                Bengaluru, Karnataka, India-B.Tech Electronics and Communication Engineering</h3>
+            <h4>Aggregate GPA: 9.20 </h4>
+
+        </div>
+    </div>
+
+    <div class="info">
+        <a href=images/Resume.pdf download><button class="btn"> Download CV <i class="fas fa-download"></i></button></a>
+    </div>
+
+</section>
+
+<!-- Education section ends -->
+
+
+<!-- Interests section starts -->
+<section class="interests" id="interests">
+    <h1 class="heading"> <span>Interests</span> </h1>
+    <div class="container">
+        <div class="work-list">
+            <div class="work">
+                <img src="images/img1.webp" alt="">
+                <div class="layer">
+                    <h1>Tennis</h1>
+                    <p>Started to watch Tennis during AO-22 Final and loved it immediately.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/img2.jpg" alt="">
+                <div class="layer">
+                    <h1>Cricket</h1>
+                    <p>My only companion during my childhood. This game has thought me so much.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/img3.jpg" alt="">
+                <div class="layer">
+                    <h1>Anime/Manga</h1>
+                    <p>Thanks to friends at college, I discovered this treasure.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/img4.jpg" alt="">
+                <div class="layer">
+                <h1>Physics</h1>
+                    <p>This world never fascinates me and through Physics I would like 
+                        to unlock the mysteries of this Universe-BIG and small.</p>
+                </div>
+            </div>
+    </div>
+    </div>
+    
+</section>
+
+<!-- Interests section endss -->
+
+<!-- Contact Section Starts -->
+
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>Contact Me</span> </h1>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>  bhavid@abc.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>   +91 00000 00000</p>
+                <div class="social-icons">
+                    <a href="https://github.com/bhavid11"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavid-a-b79a57246/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn">Submit</button>
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact Section ends -->
+
+</body>
+
+</html>
